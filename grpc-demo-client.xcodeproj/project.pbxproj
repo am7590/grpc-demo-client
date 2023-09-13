@@ -14,6 +14,9 @@
 		2924DD0D2A8F083800BD9299 /* CGRPCZlib in Frameworks */ = {isa = PBXBuildFile; productRef = 2924DD0C2A8F083800BD9299 /* CGRPCZlib */; };
 		2924DD0F2A8F083800BD9299 /* GRPC in Frameworks */ = {isa = PBXBuildFile; productRef = 2924DD0E2A8F083800BD9299 /* GRPC */; };
 		2924DD112A8F083800BD9299 /* protoc-gen-grpc-swift in Frameworks */ = {isa = PBXBuildFile; productRef = 2924DD102A8F083800BD9299 /* protoc-gen-grpc-swift */; };
+		298BA6AC2AB0EFE80002F693 /* store.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298BA6AA2AB0EFE80002F693 /* store.grpc.swift */; };
+		298BA6AD2AB0EFE80002F693 /* store.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298BA6AB2AB0EFE80002F693 /* store.pb.swift */; };
+		298BA6AF2AB120780002F693 /* GRPCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298BA6AE2AB120780002F693 /* GRPCManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		2924DCFF2A8F07F600BD9299 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2924DD012A8F07F700BD9299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2924DD042A8F07F700BD9299 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		298BA6AA2AB0EFE80002F693 /* store.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = store.grpc.swift; sourceTree = "<group>"; };
+		298BA6AB2AB0EFE80002F693 /* store.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = store.pb.swift; sourceTree = "<group>"; };
+		298BA6AE2AB120780002F693 /* GRPCManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRPCManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 				2924DCFD2A8F07F600BD9299 /* grpc_demo_clientApp.swift */,
 				2924DD142A90150500BD9299 /* grpc */,
 				2924DCFF2A8F07F600BD9299 /* ContentView.swift */,
+				298BA6AE2AB120780002F693 /* GRPCManager.swift */,
 				2924DD012A8F07F700BD9299 /* Assets.xcassets */,
 				2924DD032A8F07F700BD9299 /* Preview Content */,
 			);
@@ -77,6 +84,8 @@
 		2924DD142A90150500BD9299 /* grpc */ = {
 			isa = PBXGroup;
 			children = (
+				298BA6AA2AB0EFE80002F693 /* store.grpc.swift */,
+				298BA6AB2AB0EFE80002F693 /* store.pb.swift */,
 			);
 			path = grpc;
 			sourceTree = "<group>";
@@ -161,6 +170,9 @@
 			files = (
 				2924DD002A8F07F600BD9299 /* ContentView.swift in Sources */,
 				2924DCFE2A8F07F600BD9299 /* grpc_demo_clientApp.swift in Sources */,
+				298BA6AF2AB120780002F693 /* GRPCManager.swift in Sources */,
+				298BA6AD2AB0EFE80002F693 /* store.pb.swift in Sources */,
+				298BA6AC2AB0EFE80002F693 /* store.grpc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
